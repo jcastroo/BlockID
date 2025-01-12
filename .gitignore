@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+/build
+/dist
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Dependency directories
+/public/assets/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# TypeScript
+*.tsbuildinfo
+
+# .env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build and deployment files
+*.tgz
+*.bak
+*.swp
+
+# React native
+.expo/
