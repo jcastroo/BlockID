@@ -1,4 +1,3 @@
-// scripts/interact.js
 const { ethers } = require("hardhat");
 
 async function main() {
@@ -18,7 +17,6 @@ async function main() {
   const identity = await blockID.getIdentity(deployer.address);
   console.log("Identidade registrada:", identity);
 
-  // Revogar identidade
   const txRevoke = await blockID.revokeIdentity();
   await txRevoke.wait();
   console.log("Identidade revogada!");
